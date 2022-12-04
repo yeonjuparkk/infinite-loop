@@ -1,10 +1,13 @@
-const { Client } = require('pg');
+const { Client } = require("pg");
+const { BITIO_KEY } = process.env;
 
-const DB_NAME = 'plantarrium-dev';
-
-const DB_URL =
-  process.env.DATABASE_URL || `postgres://localhost:5432/${DB_NAME}`;
-
-const client = new Client(DB_URL);
+const client = new Client({
+  user: "yeonjupark95",
+  host: "db.bit.io",
+  database: "yeonjupark95/plantarrium",
+  password: BITIO_KEY,
+  port: 5432,
+  ssl: true,
+});
 
 module.exports = client;
