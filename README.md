@@ -1,4 +1,4 @@
-<p align="center"><a href=""><img src="./src/components/img/plantarriumreadme.png" width="400"></a></p>
+<p align="center"><a href="https://plantarrium.onrender.com"><img src="./src/components/img/plantarriumreadme.png" width="400"></a></p>
 
 # Table of Contents
 
@@ -49,8 +49,7 @@
 
 Welcome to Plantarrium! As part of Fullstack Academy's Web Development Coding Bootcamp, we present to you a fullstack E-Commerce application marketing luxury plants that are fit for any lifestyle. We started by building our backend database and server and built a full-scale frontend with the capabilities of a fully functioning E-Commerce Website.
 
-Deployed URL (Heroku): [https://plantarrium.herokuapp.com/](https://plantarrium.herokuapp.com/)
-
+Deployed URL (Render): [https://plantarrium.onrender.com](https://plantarrium.onrender.com)
 
 ## How It Works
 
@@ -58,9 +57,7 @@ Deployed URL (Heroku): [https://plantarrium.herokuapp.com/](https://plantarrium.
 - Database system: [PostgreSQL](https://www.postgresql.org/)
 - Frontend: HTML, CSS, Javascript, [React](https://reactjs.org/)
 
-
 # Project Development
-
 
 ## Project Structure
 
@@ -209,6 +206,7 @@ Deployed URL (Heroku): [https://plantarrium.herokuapp.com/](https://plantarrium.
 Deployed URL (Heroku): [https://plantarrium.herokuapp.com/](https://plantarrium.herokuapp.com/)
 
 # Project Features
+
 ## Users
 
 Visitors/Customers
@@ -230,17 +228,15 @@ Admin Users
 
 Products can be browsed by size (large, medium, and small). The main search function provides availability to search any products by name. Users are able to add multiple products to their cart from the invidual product page.
 
-
 ## Reviews
 
 Any visitors/customers can see the reviews, and any logged-in customers can write a review with a 1-5 rating and description. Each review is diplayed with the individual product page. Any logged-in customers can delete their reviews from the product page or manage the reviews under My Account.
 
-
 ## Checkout
+
 Cart allows users to store any items so they can purchase their desired plants. For visitors, the products will be still there if they exit out of the website and come back. For logged-in users, they will be able to see their items across multiple devices.
 
 Once the products in cart are ready to be checked out, customers will be directed to fill out a form with their personal information (first name, last name, email, and address). Then customers can go through the payment process which is built with Stripe. After the payment gets processed, users will be able to see the order summary. Logged-in users will be able to see every order they have under My Account.
-
 
 ## My Account
 
@@ -262,7 +258,6 @@ My Reviews:
 - Shows every review a user has in a table format.
 - Allows users to delete or edit their order.
 
-
 ## Admin Dashboard
 
 Admin Dashboard is only shown to the admin users. Use any of the following admin users to explore the Admin Dashboard:
@@ -277,26 +272,26 @@ Username: mark | Password: markmarkma
 <br>
 
 Manage Products:
+
 - Shows inventory information in a graph and table format (SKU #, name, and quantity).
 - Allows Admin Users to edit any existing products.
 - Allows Admin Users to add any new products.
 
-
 Manage Orders:
+
 - Shows order information in a graph and table format (order #, customer, and status).
 - Can update order status to ("cancel" or "skip payment").
 
-
 Manage Account:
+
 - Shows every account in a graph and table format.
 - Shows account details (the user's orders and account info).
 - Can update account information (full name, username, email, account status, and admin settings).
 
-
 Manage Reviews:
+
 - Shows every review in a table format.
 - Can delete reviews.
-
 
 # Contact
 
@@ -304,6 +299,6 @@ Project Team:<br>
 Kim Lê - 1kimthile@gmail.com | [github](https://github.com/151177)<br>
 Lindsay Nakamura - lindsnakamura@gmail.com | [github](https://github.com/lindsaynaki)<br>
 Mark Angelo Dabu - markangelo.dabu@gmail.com | [github](https://github.com/markangelodabu)<br>
-Yeonju Park - yeonju.k.park@gmail.com | [github](https://github.com/yeonjupark95)<br>
+Yeonju Park - yeonju.k.park@gmail.com | [github](https://github.com/yeonjuparkk)<br>
 
 Project Link: [https://github.com/2110-FTB-PT/infinite-loop](https://github.com/2110-FTB-PT/infinite-loop)
