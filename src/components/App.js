@@ -107,7 +107,6 @@ const App = () => {
       } else {
         const newOrder = await createGuestCart();
         setCart(newOrder);
-        localStorage.setItem("cart", JSON.stringify(newOrder));
       }
     }
   };
